@@ -6,12 +6,8 @@ int main(int argc, char *argv[])
 {
     Raycaster::RaycasterEngine engine;
     engine.Init();
-
-    //while (!engine.IsRunning()) {
-        engine.Run();
-    //}
-
+    engine.Run();
     engine.Cleanup();
-
+    
     return 0;
 }
