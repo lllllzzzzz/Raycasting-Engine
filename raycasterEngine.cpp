@@ -131,7 +131,6 @@ void RaycasterEngine::Run()
                         std::cout << "Left key pressed" << std::endl;
                         #endif
 
-                        //TurnPlayer(MovementDirection::LEFT, TURN_ANGLE);
                         StrafePlayer(MovementDirection::LEFT, MOVEMENT_SPEED);
 
                         if (IsPlayerInWall()) {
@@ -143,7 +142,6 @@ void RaycasterEngine::Run()
                         std::cout << "Right key pressed" << std::endl;
                         #endif
 
-                        //TurnPlayer(MovementDirection::RIGHT, TURN_ANGLE);
                         StrafePlayer(MovementDirection::RIGHT, MOVEMENT_SPEED);
 
                         if (IsPlayerInWall()) {
