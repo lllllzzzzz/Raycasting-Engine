@@ -91,8 +91,6 @@ namespace Raycaster
         unsigned int m_texture[NUMBER_OF_TEXTURES][TEXTURE_WIDTH * TEXTURE_HEIGHT];
         unsigned int m_screenBuffer[PROJ_PLANE_WIDTH][PROJ_PLANE_HEIGHT];
 
-        //std::vector<std::vector<int>> m_worldMap;
-
         int m_worldMap[WORLD_MAP_COLS][WORLD_MAP_ROWS] =
         {
             {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1},
