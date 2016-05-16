@@ -6,10 +6,6 @@
 
 using namespace Raycaster;
 
-//const int RaycasterEngine::PROJ_PLANE_WIDTH = 800;
-//const int RaycasterEngine::PROJ_PLANE_HEIGHT = 600;
-//const int RaycasterEngine::WORLD_MAP_COLS = 20;
-//const int RaycasterEngine::WORLD_MAP_ROWS = 20;
 const int RaycasterEngine::BACKGROUND_COLOUR = 0x000000;
 const float RaycasterEngine::WALL_SIDE_COLOUR_MULTIPLIER = .75;
 const float RaycasterEngine::MOVEMENT_SPEED = .4;
