@@ -51,8 +51,6 @@ void RaycasterEngine::Init()
             // XOR
             int xorColour = (x * 256 / TEXTURE_WIDTH) ^ (y * 256 / TEXTURE_HEIGHT);
             m_texture[0][TEXTURE_HEIGHT * y + x] = xorColour + 256 * xorColour + 65536 + xorColour;
-            // Red with black cross
-            //m_texture[0][TEXTURE_HEIGHT * y + x] = 65536 * 254 * (x != y && x != TEXTURE_WIDTH - y);
             // Red with black rectangles
             m_texture[1][TEXTURE_HEIGHT * y + x] = 65536 * 192 * (x % 16 && y % 16);
             // Vertical plasma lines
