@@ -341,7 +341,7 @@ void RaycasterEngine::SetPixel(const Point<int> coordinates, const unsigned int 
 
 unsigned int RaycasterEngine::GetWallColour(const Point<double> mapCell) noexcept
 {
-    int cellValue = GetWorldMapCell(mapCell);
+    const int cellValue = GetWorldMapCell(mapCell);
     unsigned int wallColour;
 
     switch (cellValue) {
